@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="entry">
+            <form>
+                <div>
+                    <div class="agua">
+                        <h2>
+                            Água
+                        </h2>
+    
+                        <input type="number" id="valueagua" min="1">
+                    </div>
+    
+                    <div class="exercicio">
+                        <h2>
+                            Exercício
+                        </h2>
+    
+                        <input type="number" id="valueexercicio" min="1">
+                    </div>
+                </div>
+
+
+                <button type="button" id="comecar">Começar</button>
+
+                <!--<button type="button" id="parar">Parar</button>-->
+            </form>
+        </div>
+
+        <div id="app">
+            <div>
+                <div class="agua">
+                    <h2>
+                        Tempo água
+                    </h2>
+
+                    <h2 id="tempoagua"></h2>
+                </div>
+
+                <div class="exercicio">
+                    <h2>
+                        Tempo exercício
+                    </h2>
+
+                    <h2 id="tempoexercicio"></h2>
+                </div>
+
+            </div>
+
+            <button type="submit" id="parar">Parar</button>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
